@@ -1,0 +1,36 @@
+{
+  "components": "components/components.json",
+  "dataset": "data/16k",
+  "task": "absolute",
+  "lr": 0.0008,
+  "epochs": 150,
+  "features": 5,
+  "inner_channels": 32,
+  "hidden_layers": 2,
+  "head_channels": 256,
+  "embed_inner_channels": 16,
+  "embed_hidden_layers": 2,
+  "loss": "mse",
+  "output": "outputs",
+  "output_name": "critical_path_absolute",
+  "name": "16k",
+  "train_regress": true,
+  "train_embed": false,
+  "regress_pretrained": null,
+  "embed_pretrained": null,
+  "embed": false,
+  "seed": 1170334469,
+  "critical_path": true,
+  "targets": [
+    "psnr"
+  ],
+  "limit": null,
+  "split": 0.2,
+  "metrics": [
+    "ep%",
+    "mae%",
+    "mre%",
+    "wce%",
+    "wcre%"
+  ]
+}

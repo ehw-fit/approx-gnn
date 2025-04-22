@@ -1,0 +1,10 @@
+torch_geometric>2.0.0
+torch<2.6.0
+networkx
+matplotlib
+antlr4-python3-runtime
+antlr4-tools
+scikit-learn
+pyyaml
+pandas
+pymoo

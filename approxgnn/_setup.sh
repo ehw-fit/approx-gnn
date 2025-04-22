@@ -1,0 +1,1 @@
+antlr4 -Dlanguage=Python3 ./VerilogLexer.g4 ./VerilogParser.g4 -visitor -no-listener

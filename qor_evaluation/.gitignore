@@ -1,0 +1,6 @@
+_*.hpp
+_*.tsv
+configs.cpp
+bin
+build
+release
